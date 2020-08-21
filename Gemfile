@@ -27,6 +27,12 @@ gem 'jbuilder', '~> 2.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
+# slim
+gem 'slim-rails'
+gem 'html2slim'
+
+# bootstrap
+gem 'bootstrap'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -49,12 +55,6 @@ group :test do
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
 
-  # slim
-  gem 'slim-rails'
-  gem 'html2slim'
-
-  # bootstrap
-  gem 'bootstrap'
 
 end
 
